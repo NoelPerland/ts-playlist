@@ -1,0 +1,22 @@
+{
+  "name": "ts-playlist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/parser": "^7.28.3",
+    "@babel/types": "^7.28.2",
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2",
+    "undici-types": "^7.15.0"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <title>Playlist Builder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎵Playlist 🅱️uilder🎵</h1>
+
+      <form id="track-form">
+        <input id="title" type="text" placeholder="Titel" />
+        <input id="artist" type="text" placeholder="Artist" />
+        <input id="duration" type="text" placeholder="mm:ss" />
+
+        <button type="submit">Lägg till</button>
+      </form>
+
+      <ul id="list"></ul>
+
+      <div class="total-container">
+        <p class="total-label">Total tid:</p>
+
+        <p id="total">0:00</p>
+      </div>
+    </div>
+
+    <script type="module" src="dist/main.js"></script>
+  </body>
+</html>
