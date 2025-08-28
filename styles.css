@@ -6,14 +6,14 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #b3b3b3, #747474);
+  background: linear-gradient(135deg, #080e29, #030928);
   color: #e6e6e6; /* text*/
   line-height: 1.6;
   min-height: 100vh;
   padding: 20px;
 }
 
-/* Container for centering content */
+/* Container content */
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -34,11 +34,11 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  background: rgba(30, 30, 46, 0.8);
+  background: rgba(44, 40, 40, 0.8);
   padding: 25px;
   border-radius: 12px;
   margin-bottom: 30px;
-  box-shadow: 0 8px 32px rgb(98, 98, 98);
+  box-shadow: 0 8px 32px rgb(0, 0, 0);
   backdrop-filter: blur(10px);
 }
 
@@ -59,19 +59,19 @@ h1 {
 
 /* Input-fält */
 #track-form input[type="text"] {
-  flex: 1 1 200px; /* tar upp lite plats men flexar med formuläret */
+  flex: 1 1 200px;
   padding: 10px 15px;
   border-radius: 8px;
   border: none;
   font-size: 1rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.9);
   color: #e6e6e6;
   outline: none;
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
 #track-form input[type="text"]:focus {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(50, 50, 50, 0.959);
   box-shadow: 0 0 8px rgba(100, 149, 237, 0.7);
 }
 
@@ -92,9 +92,9 @@ h1 {
   transform: translateY(-2px);
 }
 
-/* För att lista låtar snyggt */
+/* För att lista låtar  */
 .track-item {
-  background: rgba(30, 30, 46, 0.7);
+  background: rgba(44, 40, 40, 0.8);
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 12px;
@@ -112,4 +112,20 @@ h1 {
   margin-top: 20px;
   font-size: 1.2rem;
   text-align: right;
+}
+
+/* Ändra-knapp */
+.edit-btn {
+  background: #2dd243;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.edit-btn:hover {
+  background: #23ab35;
 }
